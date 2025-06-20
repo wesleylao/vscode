@@ -8,7 +8,7 @@ class Standard_Deviation:
         for arr in self.arr:
             a = sorted(arr)
             a_len = len(a)
-            mean_arr = sum(a)//a_len
+            mean_arr = sum(a)/a_len
             i = 0
             tmp = 0
             tmp2 = 0
@@ -26,7 +26,7 @@ class Standard_Deviation:
             b_len = len(b)
             max_arr = b[-1]
             min_arr = b[0]
-            if b_len % 2 == 0:
+            if b_len % 2 == 1:
                 median_arr = b[b_len//2]
             else:
                 median_arr = (b[b_len//2]+b[b_len//2-1])/2
