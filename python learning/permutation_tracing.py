@@ -1,15 +1,13 @@
 import math, itertools
-l = ['a', 'b', 'c']
+l = ['a', 'b', 'c', 'd']
 #print(list(itertools.permutations(l)))
-n = len(l)
+n = len(l)  
 i = 0
 j = 0
-tmp = 0
 for j in range(n):
     for i in range(j, n):
         l[i], l[j] = l[j], l[i]
         print(l)
-        tmp += 1
         l[i], l[j] = l[j], l[i] 
 
-print(tmp, '種組合')
+print(math.factorial(n), '種組合')
