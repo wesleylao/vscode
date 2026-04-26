@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"name": "python",
+			"path": "python"
+		},
+		{
+			"name": "vscode",
+			"path": "vscode"
+		},
+		{
+			"name": "gal.seaotterms.com",
+			"path": "gal.seaotterms.com"
+		},
+		{
+			"name": "seaotterms.com",
+			"path": "seaotterms.com"
+		},
+		{
+			"name": "seaotterms.com-nuxt",
+			"path": "seaotterms.com-nuxt"
+		},
+		{
+			"path": "api.seaotterms.com"
+		}
+	],
+	"settings": {}
+}
